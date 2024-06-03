@@ -1,5 +1,6 @@
 # Writing a C++ function to swap pointers
-Write a C++ function *swap_pointers* that takes two integer pointers as input and swaps the values that they are point to 
+Write a C++ function *swap_pointers* that takes two integer pointers as input and swaps the values that they are point to.
+The function should modify the values stored at the memory locations pointed by *ptr1* and *ptr2*, effectively swapping their values.
 
 ## Method 1: Using arithmetic
 ```
