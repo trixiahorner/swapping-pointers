@@ -3,7 +3,7 @@ Write a C++ function *swap_pointers* that takes two integer pointers as input an
 The function should modify the values stored at the memory locations pointed by *ptr1* and *ptr2*, effectively swapping their values.
 
 ## Method 1: Using arithmetic
-```
+```cpp
 void swap_pointers(int* ptr1, int* ptr2){
   *ptr1 = *ptr1 + *ptr2; 
   *ptr2 = *ptr1 - *ptr2; 
@@ -23,7 +23,7 @@ Explanation:
 <br>
 
 ## Method 2: Using a temp variable
-```
+```cpp
 void swap_pointers(int** ptr1, int** ptr2) {
     int temp = *ptr1;
     *ptr1 = *ptr2;
